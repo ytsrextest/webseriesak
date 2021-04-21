@@ -21,10 +21,10 @@
 		{
 			//local live 
 
-		 	 DEFINE ('DB_USER', DB_USER);
-			 DEFINE ('DB_PASSWORD', DB_PASSWORD);
-			 DEFINE ('DB_HOST', 'localhost'); //host name depends on server
-			 DEFINE ('DB_NAME', DB_DATABASE);
+		 	 DEFINE ('DB_USER', freedbtech_moviealok);
+			 DEFINE ('DB_PASSWORD', 9122335311);
+			 DEFINE ('DB_HOST', 'freedb.tech'); //host name depends on server
+			 DEFINE ('DB_NAME', freedbtech_moviealok);
 		}
 
 	
