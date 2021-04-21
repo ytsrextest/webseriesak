@@ -1,5 +1,14 @@
 <!-- Recoded by roktim -->
+<?php
+    include("includes/connection.php");
+		include("language/language.php");
 
+	if(isset($_SESSION['admin_name']))
+	{
+		header("Location:home.php");
+		exit;
+	}
+?>
 
 <!DOCTYPE html>
 <html>
