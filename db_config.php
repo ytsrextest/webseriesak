@@ -4,15 +4,15 @@
  * All database connection variables
  */
 
-define('DB_USER',"netflix"); // db user
-define('DB_PASSWORD',"flix"); // db password (mention your db password here)
-define('DB_DATABASE',"netflixnew"); // database name
-define('DB_SERVER',"localhost"); // db server
+define('DB_USER',"freedbtech_moviealok"); // db user
+define('DB_PASSWORD',"9122335311"); // db password (mention your db password here)
+define('DB_DATABASE',"freedbtech_moviealok"); // database name
+define('DB_SERVER',"freedb.tech"); // db server
 
 define('PURCHAGECODE',"XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"); // your purchage code (if you dont have this contact me on primeflix6533@gmail.com)
 define('PAYTM_MERCHANT_KEY', '9wPwxkQ2PPWtPDNk_');
 
-define('DEMO',"yes"); // this is demo yes/no
+define('DEMO',"no"); // this is demo yes/no
 
 //Ads Setting
 // for enable type "true"
