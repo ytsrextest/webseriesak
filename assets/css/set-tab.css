@@ -1,0 +1,220 @@
+.card .card-body {
+    padding: 30px 20px;
+}
+
+.mrg_bottom {
+    margin-bottom: 30px;
+}
+
+.card.card-tab.card-mini .card-header > li a, .card.card-tab.card-mini ul.nav-tabs > li a {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.pagination_item_block nav {
+	text-align: right
+}
+.nav-tabs {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	border-radius: 2px;
+	margin-bottom: 30px;
+}
+.nav-tabs > li {
+	border: 0;
+	margin-bottom: -2px;
+}
+.nav-tabs > li a, .nav-tabs > li a:focus, .nav-tabs > li a:hover {
+	font-size:15px;
+	padding: 15px 30px;
+	background-color: transparent;
+	border: 0;
+	color: #8d9293;
+}
+.nav-tabs > li.active a, .nav-tabs > li.active a:focus, .nav-tabs > li.active a:hover {
+	border: 0;
+	font-weight:600;
+	background-color: #000000;
+	border-radius: 1px;
+	border-bottom: 4px solid #63e0d6;
+	color: #ffffff;
+}
+ @media (max-width: 767px) {
+.nav-tabs {
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+.nav-tabs > li a, .nav-tabs > li a:focus, .nav-tabs > li a:hover {
+	padding: 15px;
+}
+}
+.step .nav-tabs {
+	border-bottom: 0px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 20px;
+	border-radius: 1px;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	position: relative;
+}
+.step .nav-tabs > li {
+	border-right: 0;
+	z-index: 2;
+	-ms-flex: 1;
+	flex: 1;
+	margin-bottom: 0px;
+	position: relative;
+	overflow: hidden;
+}
+.step .nav-tabs > li[class^="col-"] {
+	padding-left: 0;
+	padding-right: 0;
+	border-radius: 0;
+}
+.step .nav-tabs > li > a, .step .nav-tabs > li uib-tab-heading {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	border: 0;
+	padding: 2rem;
+	padding-left: 0;
+	z-index: 2;
+	color: #18aa4a;
+}
+.step .nav-tabs > li > a .icon, .step .nav-tabs > li uib-tab-heading .icon {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	font-size: 2.5em;
+	margin-right: 0.5em;
+	width: 60px;
+	height: 60px;
+	min-width: 60px;
+	border-radius: 50%;
+	background-color: #39a2e9;
+	color: #FFF;
+}
+.step .nav-tabs > li > a .heading, .step .nav-tabs > li uib-tab-heading .heading {
+	-ms-flex: 1;
+	flex: 1;
+	text-align: left;
+	overflow: hidden;
+}
+.step .nav-tabs > li > a .heading .title, .step .nav-tabs > li uib-tab-heading .heading .title {
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-bottom: 1rem;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.step .nav-tabs > li > a .heading .description, .step .nav-tabs > li uib-tab-heading .heading .description {
+	font-size: 0.8em;
+	margin-bottom: 0.5rem;
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.step .nav-tabs > li > a:hover, .step .nav-tabs > li uib-tab-heading:hover {
+	border: 0;
+	background-color: transparent;
+}
+.step .nav-tabs > li.active > a, .step .nav-tabs > li.active > a:focus, .step .nav-tabs > li.active > a:hover, .step .nav-tabs > li.active uib-tab-heading {
+	background-color: transparent;
+	border: 0;
+	color: #18aa4a;
+}
+.step .nav-tabs > li.active > a:hover {
+	cursor: pointer;
+}
+.step .nav-tabs > li.active ~ li > a, .step .nav-tabs > li.active ~ li > a:focus, .step .nav-tabs > li.active ~ li > a:hover, .step .nav-tabs > li.active ~ li uib-tab-heading {
+	color: #8d9293;
+}
+.step .nav-tabs > li.active ~ li > a .icon, .step .nav-tabs > li.active ~ li > a:focus .icon, .step .nav-tabs > li.active ~ li > a:hover .icon, .step .nav-tabs > li.active ~ li uib-tab-heading .icon {
+	background-color: #c8d1d3;
+	color: #FFF;
+}
+.step .nav-tabs > li.active ~ li > a, .step .nav-tabs > li.active ~ li > a:focus, .step .nav-tabs > li.active ~ li > a:hover, .step .nav-tabs > li.active ~ li uib-tab-heading {
+	color: #8d9293;
+}
+.step .nav-tabs > li.active ~ li:after {
+	content: '';
+	z-index: 1;
+	position: absolute;
+	display: block;
+	height: 4px;
+	border-radius: 0px;
+	top: 50%;
+	transform: translate(0, -50%);
+	width: 100%;
+	background-color: #dfe6e8;
+}
+.step .nav-tabs > li:last-child {
+	border-top-right-radius: 1px;
+	border-bottom-right-radius: 1px;
+}
+.step .nav-tabs > li:last-child:before, .step .nav-tabs > li:last-child:after {
+	display: none;
+}
+.step .nav-tabs:after {
+	content: '';
+	z-index: 1;
+	position: absolute;
+	display: block;
+	height: 4px;
+	border-radius: 2px;
+	top: 50%;
+	left: 0;
+	transform: translate(0, -50%);
+	width: 100%;
+	background-color: #39a2e9;
+}
+.step .tab-content > div {
+	padding: 0;
+}
+ @media (max-width: 767px) {
+.step .nav-tabs > li > a, .step .nav-tabs > li uib-tab-heading {
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding: 0;
+}
+.step .nav-tabs > li > a .icon, .step .nav-tabs > li uib-tab-heading .icon {
+	margin-right: 0;
+}
+.step .nav-tabs > li > a .heading, .step .nav-tabs > li uib-tab-heading .heading {
+	display: none;
+}
+}
